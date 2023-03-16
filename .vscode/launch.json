@@ -1,0 +1,87 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MethodDetail",
+            "request": "launch",
+            "mainClass": "Java.MethodDetail",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Method02",
+            "request": "launch",
+            "mainClass": "Java.Method02",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Method01",
+            "request": "launch",
+            "mainClass": "Java.Method01",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Meth02",
+            "request": "launch",
+            "mainClass": "Java.Meth02",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Metho1",
+            "request": "launch",
+            "mainClass": "Java.Metho1",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProjectDetail",
+            "request": "launch",
+            "mainClass": "Java.ProjectDetail",
+            "projectName": "CC_706fca6f"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "cmd",
+            "preLaunchTask": "echo",
+            "args": [
+                "/C",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "&",
+                "echo.",
+                "&",
+                "pause"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "preLaunchTask": "echo",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
